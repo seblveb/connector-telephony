@@ -90,6 +90,9 @@ functionalities:
 
 A detailed documentation for this module is available on `this page <http://www.akretion.com/products-and-services/openerp-asterisk-voip-connector>`_ of Akretion's Web site.
 
+Since version odoo 16 the module uses the Astrerisk ARI mini server connection protocol
+`info on this pages <https://docs.asterisk.org/Configuration/Interfaces/Asterisk-REST-Interface-ARI/Asterisk-Configuration-for-ARI/>`_
+
 **Table of contents**
 
 .. contents::
