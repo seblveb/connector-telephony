@@ -17,14 +17,13 @@ export class Click2DialSystray extends Component {
         this.rpc = useService("rpc");
         this.action = useService("action");
         this.notification = useService("notification");
-        this.user = useService("user");
     }
 
     async onOpenCaller() {
         // Var session = require('web.session');
 
         const r = await this.rpc("/asterisk_click2dial/get_record_from_my_channel", {
-            context: this.user.context,
+            context: user.context,
         });
         if (r === false) {
             this.notification.add(
